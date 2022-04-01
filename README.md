@@ -1,5 +1,8 @@
 # Little Tree for Sim Racing Rig
 
+![Model in use](https://user-images.githubusercontent.com/74560920/161285019-60462cbe-626a-4d95-bfd5-663aa22add2d.jpg)
+
+
 ## CREDIT
 
 Credit for this fantastic idea goes to [JamesF890](https://www.reddit.com/user/JamesF890/)
@@ -51,3 +54,4 @@ I drilled two holes (One in the Z ring and one in the X bar) and used bailing wi
 
 ### REVISIONS
 I'm sure a lot of this could be done better.  Feel free to modify any of the source material to improve or meet your specific needs.
+
