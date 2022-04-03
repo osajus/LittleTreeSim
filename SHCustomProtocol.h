@@ -36,10 +36,10 @@ public:
 		// Z-Axis is forward (negative) and backward (positive) 
 		// You can adjust the toLow and toHigh based on how you wire the 3D hanger movement arms
 		
-		posx = map(accelx, -20, 20, 0, 180);
+		posx = map(accelx, -20, 20, 45, 135);
 		myservox.write(posx);    
 		
-		posz = map(accelz, -20, 20, 70, 110);
+		posz = map(accelz, -20, 20, 45, 135);
 		myservoz.write(posz);    
 		
 	}
