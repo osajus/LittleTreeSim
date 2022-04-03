@@ -1,6 +1,16 @@
 # Little Tree for Sim Racing Rig
 
-![Model in use](https://user-images.githubusercontent.com/74560920/161285019-60462cbe-626a-4d95-bfd5-663aa22add2d.jpg)
+![V1 Model in use](https://user-images.githubusercontent.com/74560920/161285019-60462cbe-626a-4d95-bfd5-663aa22add2d.jpg)
+
+V1
+
+
+![Model V2](https://github.com/osajus/LittleTreeSim/blob/main/View1.png)
+V2
+![Model V2](https://github.com/osajus/LittleTreeSim/blob/main/View2.png)
+V2
+![Model V2](https://github.com/osajus/LittleTreeSim/blob/main/View3.png)
+V2
 
 
 ## CREDIT
@@ -40,18 +50,20 @@ In this same folder, you will also need to modify the DisplayClientV2.ino file. 
 
 This sketch can be uploaded to your Arduino either through your IDE or by using SIMHUB.
 
-### HARDWARE SETUP
+## HARDWARE SETUP
 Foward and Backward servo wires to I/O 10.
 Left and Right servo wires to I/O pin 9.
 These values can be changed in the [SHCustomProtocol.h](https://github.com/osajus/LittleTreeSim/blob/main/SHCustomProtocol.h) file, if you wish.  Lines 16/17.
 
 I used 5V servos but you might want to check your particular hardware before applying the VCC and GND wires.
 
-I drilled two holes (One in the Z ring and one in the X bar) and used bailing wire to connect each servo arm to the drilled holes.
+I drilled a hole and used bailing wire to connect the little tree.
 
-### 3D MODELS
-3mf files are included.  I won't provide the source file.  You'll need some m4 bolts and nuts to complete the build.  I used double sided sticky tape to attach the servos and some hot-snot to hold down the Arduino.  
+## 3D MODELS
+3mf file is included.  I won't provide the source file.  I used the scews that came with the servos to attach them to the model.  Double sided tape or glue could also be used.  I used some hot-snot to hold down the Arduino.  
 
-### REVISIONS
+# REVISIONS
 I'm sure a lot of this could be done better.  Feel free to modify any of the source material to improve or meet your specific needs.
 
+### 4/3/22
+Re-designed model to remove bailing wire.
